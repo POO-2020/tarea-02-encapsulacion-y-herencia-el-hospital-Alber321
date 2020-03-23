@@ -1,6 +1,6 @@
 import Paciente from "./paciente.js"
 
-export default class PacienteA extends Paciente{
+export default class PacienteAsegurado extends Paciente{
     constructor({nombre, fechaNacimiento, telefono, numeroPoliza, fechaFinVigencia, compañia})
     {
         super({nombre, fechaNacimiento, telefono})
